@@ -37,9 +37,4 @@ A proposta do FlexERP é ser uma plataforma de **gestão centralizada**, capaz d
 - Automação de tarefas e notificações inteligentes.  
 - Aplicativo mobile (Android/iOS).  
 - Painel de relatórios e BI com gráficos dinâmicos.  
-- Sistema multi-empresa e multiusuário.  
-
-# Inicie o front-end
-cd ../frontend
-npm install
-npm run dev
+- Sistema multi-empresa e multiusuário. 
