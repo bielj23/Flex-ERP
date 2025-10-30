@@ -37,4 +37,31 @@ A proposta do FlexERP é ser uma plataforma de **gestão centralizada**, capaz d
 - Automação de tarefas e notificações inteligentes.  
 - Aplicativo mobile (Android/iOS).  
 - Painel de relatórios e BI com gráficos dinâmicos.  
-- Sistema multi-empresa e multiusuário. 
+- Sistema multi-empresa e multiusuário.
+
+  ---
+
+  ## 🧩 Stack 
+
+| Camada | Tecnologias | Observações |
+|--------|--------------|-------------|
+| **Frontend (Web)** | **React + TypeScript + TailwindCSS + ShadCN UI** | Interface moderna, performática e responsiva. |
+| **Backend (API REST)** | **Java + Spring Boot + Maven + Spring Security (JWT/OAuth2)** | Estrutura sólida e escalável com autenticação segura. |
+| **Banco de Dados** | **PostgreSQL (Supabase / Neon.tech)** | Banco relacional em nuvem gratuito, ideal para ERPs. |
+| **Infraestrutura e Hospedagem** | **Render (backend)** + **Vercel (frontend)** + **Supabase (banco)** | Ambiente 100% gratuito e simples de integrar. |
+| **Containerização** | **Docker + Docker Compose** | Facilita deploy local e em nuvem. |
+| **CI/CD** | **GitHub Actions** | Automatiza build, testes e deploy contínuo. |
+| **Design e UX** | **Figma** | Criação de protótipos e fluxos de interface. |
+| **Documentação** | **Swagger (API Docs)** + **README.md** + **Notion/Jira** | Centraliza e padroniza o projeto. |
+| **Metodologia Ágil** | **Scrum (Jira ou GitHub Projects)** | Organização por sprints, backlog e epics. |
+| **Autenticação** | **JWT + OAuth2 (Login Google)** | Segurança padrão e login social. |
+| **Padrão de Arquitetura** | **MVC + Service Layer + Repository Pattern** | Código limpo, modular e de fácil manutenção. |
+| **Testes** | **JUnit (backend)** + **React Testing Library (frontend)** + **Postman (APIs)** | Garante estabilidade e qualidade contínua. |
+
+## Estratégia de Stack
+
+- ✅ **Custo zero inicial** — ideal para desenvolvimento, testes e MVP.  
+- ⚙️ **Arquitetura modular e escalável** — preparada para crescer com microsserviços no futuro.  
+- 🌐 **Deploy simplificado** — integração direta com GitHub e plataformas gratuitas.  
+- 🧩 **Fácil migração para AWS** — a estrutura atual é compatível com EC2, RDS e S3.  
+- 💡 **Stack moderna e valorizada no mercado**, com tecnologias usadas por grandes empresas.
