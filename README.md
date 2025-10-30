@@ -45,7 +45,7 @@ A proposta do FlexERP é ser uma plataforma de **gestão centralizada**, capaz d
 
 | Camada | Tecnologias | Observações |
 |--------|--------------|-------------|
-| **Frontend (Web)** | **Next.js + TypeScript + TailwindCSS + ShadCN UI** | Interface moderna, performática e responsiva. |
+| **Frontend (Web)** | **Next.js + Chart.js + TypeScript + TailwindCSS + ShadCN UI** | Interface moderna, performática e responsiva. |
 | **Backend (API REST)** | **Java + Spring Boot + Maven + Spring Security (JWT/OAuth2)** | Estrutura sólida e escalável com autenticação segura. |
 | **Banco de Dados** | **PostgreSQL (Supabase / Neon.tech)** | Banco relacional em nuvem gratuito, ideal para ERPs. |
 | **Infraestrutura e Hospedagem** | **Render (backend)** + **Vercel (frontend)** + **Supabase (banco)** | Ambiente 100% gratuito e simples de integrar. |
@@ -55,7 +55,7 @@ A proposta do FlexERP é ser uma plataforma de **gestão centralizada**, capaz d
 | **Documentação** | **Swagger (API Docs)** + **Scalar** + **README.md** + **Notion/Jira** | Centraliza e padroniza o projeto. |
 | **Metodologia Ágil** | **Scrum (Jira e GitHub Projects)** | Organização por sprints, backlog e epics. |
 | **Autenticação** | **JWT + OAuth2 (Login Google)** | Segurança padrão e login social. |
-| **Qualidade e Padronização**     | ESLint / Prettier / Husky    | Análise de código, formatação automática e verificação antes de commits |
+| **Qualidade e Padronização**     | **ESLint / Prettier / Husky**    | Análise de código, formatação automática e verificação antes de commits |
 | **Padrão de Arquitetura** | **MVC + Service Layer + Repository Pattern** | Código limpo, modular e de fácil manutenção. |
 | **Testes** | **JUnit (backend)** + **React Testing Library (frontend)** + **Postman (APIs)** | Garante estabilidade e qualidade contínua. |
 
