@@ -53,7 +53,7 @@ A proposta do FlexERP é ser uma plataforma de **gestão centralizada**, capaz d
 | **CI/CD** | **GitHub Actions** | Automatiza build, testes e deploy contínuo. |
 | **Design e UX** | **Figma** | Criação de protótipos e fluxos de interface. |
 | **Documentação** | **Swagger (API Docs)** + **README.md** + **Notion/Jira** | Centraliza e padroniza o projeto. |
-| **Metodologia Ágil** | **Scrum (Jira ou GitHub Projects)** | Organização por sprints, backlog e epics. |
+| **Metodologia Ágil** | **Scrum (Jira e GitHub Projects)** | Organização por sprints, backlog e epics. |
 | **Autenticação** | **JWT + OAuth2 (Login Google)** | Segurança padrão e login social. |
 | **Padrão de Arquitetura** | **MVC + Service Layer + Repository Pattern** | Código limpo, modular e de fácil manutenção. |
 | **Testes** | **JUnit (backend)** + **React Testing Library (frontend)** + **Postman (APIs)** | Garante estabilidade e qualidade contínua. |
