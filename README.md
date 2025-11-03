@@ -41,23 +41,23 @@ A proposta do FlexERP é ser uma plataforma de **gestão centralizada**, capaz d
 
   ---
 
-  ## 🧩 Stack 
+  # 🧩 Stack — FlexERP
 
-| Camada | Tecnologias | Observações |
-|--------|--------------|-------------|
-| **Frontend (Web)** | **Next.js + Chart.js + TypeScript + TailwindCSS + ShadCN UI** | Interface moderna, performática e responsiva. |
-| **Backend (API REST)** | **Java + Spring Boot + Maven + Spring Security (JWT/OAuth2)** | Estrutura sólida e escalável com autenticação segura. |
-| **Banco de Dados** | **PostgreSQL (Supabase / Neon.tech)** | Banco relacional em nuvem gratuito, ideal para ERPs. |
-| **Infraestrutura e Hospedagem** | **Render (backend)** + **Vercel (frontend)** + **Supabase (banco)** | Ambiente 100% gratuito e simples de integrar. |
-| **Containerização** | **Docker + Docker Compose** | Facilita deploy local e em nuvem. |
-| **CI/CD** | **GitHub Actions** | Automatiza build, testes e deploy contínuo. |
-| **Design e UX** | **Figma** | Criação de protótipos e fluxos de interface. |
-| **Documentação** | **Swagger (API Docs)** + **Scalar** + **README.md** + **Notion/Jira** | Centraliza e padroniza o projeto. |
-| **Metodologia Ágil** | **Scrum (Jira e GitHub Projects)** | Organização por sprints, backlog e epics. |
-| **Autenticação** | **JWT + OAuth2 (Login Google)** | Segurança padrão e login social. |
-| **Qualidade e Padronização**     | **ESLint / Prettier / Husky**    | Análise de código, formatação automática e verificação antes de commits |
-| **Padrão de Arquitetura** | **MVC + Service Layer + Repository Pattern** | Código limpo, modular e de fácil manutenção. |
-| **Testes** | **JUnit (backend)** + **React Testing Library (frontend)** + **Postman (APIs)** | Garante estabilidade e qualidade contínua. |
+| **Camada** | **Tecnologias** | **Observações** |
+|-------------|------------------|------------------|
+| **Frontend (Web)** | Next.js + Chart.js + TypeScript + TailwindCSS + ShadCN UI | Mantém o front moderno, performático e responsivo. Comunicação com o back via REST (ou GraphQL). |
+| **Backend (API REST)** | Python + FastAPI + Uvicorn + Pydantic + SQLAlchemy + FastAPI Users | Substitui o Spring Boot: framework moderno, rápido e com documentação automática (Swagger). Estrutura leve e tipada. |
+| **Banco de Dados** | PostgreSQL (Supabase / Neon.tech) | Continua igual — compatível com SQLAlchemy e ideal para ERP modular. |
+| **Infraestrutura e Hospedagem** | Render (backend) + Vercel (frontend) + Supabase (banco) | Totalmente integrável. Render e Supabase suportam FastAPI sem custo inicial. |
+| **Containerização** | Docker + Docker Compose | Criação de containers para FastAPI, PostgreSQL e Redis. Facilita deploy e ambiente local. |
+| **CI/CD** | GitHub Actions + Pytest Workflow | Automatiza build, testes e deploy contínuo. Configura pipeline para executar testes Pytest e deploy no Render. |
+| **Design e UX** | Figma | Mantém o design system e prototipagem. |
+| **Documentação** | Swagger (automático via FastAPI) + Scalar + README.md + Notion/Jira | FastAPI gera documentação interativa nativa (Swagger e ReDoc). |
+| **Metodologia Ágil** | Scrum (Jira e GitHub Projects) | Sprints, backlog, epics e acompanhamento contínuo. |
+| **Autenticação** | OAuth2 + JWT (FastAPI Users / Authlib) | Login com Google, autenticação segura e controle de acesso baseado em papéis (roles). |
+| **Qualidade e Padronização** | Black / Ruff / MyPy / Pre-commit Hooks (Husky equivalente) | Linter, formatação automática e análise estática de tipos — garantem padrão e qualidade do código antes dos commits. |
+| **Padrão de Arquitetura** | Clean Architecture + Service Layer + Repository Pattern (FastAPI modular) | Estrutura limpa, orientada a domínio, com camadas independentes e de fácil manutenção. |
+| **Testes** | Pytest (backend) + React Testing Library (frontend) + Postman (APIs) | Testes unitários, integração e E2E. Pytest é rápido e amplamente usado em APIs Python. |
 
 ## Estratégia de Stack
 
